@@ -6,6 +6,9 @@ This only works for solo. The round variable is different if you're not the host
 
 The basic autosplitter won't do any splits for you. It's there to start the timer and pause, that's it.
 
+The basic game time autosplitter will connect to the game's timer regardless of when you start livesplit. 
+### IMPORTANT: The in game timer takes a long time to stop when you pause, so if you pause a lot, the timer won't accurately reflect how long you've actually been playing, but this is the exact value that the game stores.
+
 ## HOW TO USE
 Download the corresponding timer for what you want to do
 
