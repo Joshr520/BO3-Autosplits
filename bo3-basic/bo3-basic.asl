@@ -13,7 +13,11 @@ startup
 
 start
 {
-    if(current.round_counter == 0) vars.timer_start = 0;
+    if(current.round_counter == 0)
+    {
+        vars.timer_start = 0;
+        vars.split_index = 0;
+    }
 	if(current.round_counter == 1 && vars.timer_start == 0)
     {
         vars.timer_start = 1;
@@ -23,8 +27,7 @@ start
 
 reset
 {
-    if(current.round_counter == 0 && old.round_counter != 0) return true;
-    if(current.map_name.Equals("core_frontend")) return true;
+    if(current.round_counter == 0 && old.round_counter != 0 || current.map_name.Equals("core_frontend")) return true;
     return false;
 }
 
