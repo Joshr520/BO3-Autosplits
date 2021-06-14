@@ -61,9 +61,8 @@
       <Path>LiveSplit.ScriptableAutoSplit.dll</Path>
       <Settings>
         <Version>1.5</Version>
-        <ScriptPath>C:\Users\joshr\Documents\Splits\bo3-basic\bo3-basic.asl</ScriptPath>
-        <Start>True</Start>
-        <Reset>True</Reset>
+        <ScriptPath>
+        </ScriptPath>
         <CustomSettings />
       </Settings>
     </Component>
