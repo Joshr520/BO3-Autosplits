@@ -8,12 +8,12 @@ state("blackops3")
 startup
 {
     refreshRate = 100;
-    vars.timer_start = 0;
+    vars.timer_start = 1;
 }
 
 start
 {
-    if(current.round_counter == 0)vars.timer_start = 0;
+    if(current.round_counter == 0) vars.timer_start = 0;
 	if(current.round_counter == 1 && vars.timer_start == 0)
     {
         vars.timer_start = 1;
