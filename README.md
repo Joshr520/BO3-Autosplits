@@ -1,2 +1,28 @@
 # BO3-Autosplits
 A collection of autosplitters for round based speedrunning, as well as a basic timer for all purposes
+
+# IMPORTANT
+This only works for solo. The round variable is different if you're not the host and the variable doesn't always update in time so the timer will be late. For this reason, I'm not including it at all for co-op because it's not accurate.
+
+## HOW TO USE
+Download the corresponding timer for what you want to do
+  
+Right-Click livesplit -> Open Splits -> Frim File... -> Navigate to and select the corresponding .lss file
+
+Right-Clck Livesplit -> Open Layout -> Frim File... -> Navigate to and select the corresponding .lsl file
+
+Right-Clck Livesplit -> Edit Layout -> Double click Scriptable Auto Scripter -> Brosw -> Navigate to and select the corresponding .asl file
+
+## ROUND SPLITS
+The round splits are as follows. The only difference between the files is where the rounds stop, the intervals between the rounds is the same
+
+5, 10, 15, 20, 25, 30, 50, 70, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220, 230, 240, 250, 255
+
+## HOW IT WORKS
+The timer will start when round 1 begins, which is roughly when you gain control of your character
+
+The timer will reset if you restart the map, or if you leave the game and keep it running long enough to get back to the main menu
+
+The timer will pause if you pause
+
+The timer will split for the corresponding round of the split segments
