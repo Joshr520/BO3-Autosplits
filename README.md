@@ -7,9 +7,9 @@ This only works for solo. The round variable is different if you're not the host
 ## HOW TO USE
 Download the corresponding timer for what you want to do
   
-Right-Click livesplit -> Open Splits -> Frim File... -> Navigate to and select the corresponding .lss file
+Right-Click livesplit -> Open Splits -> From File... -> Navigate to and select the corresponding .lss file
 
-Right-Clck Livesplit -> Open Layout -> Frim File... -> Navigate to and select the corresponding .lsl file
+Right-Clck Livesplit -> Open Layout -> From File... -> Navigate to and select the corresponding .lsl file
 
 Right-Clck Livesplit -> Edit Layout -> Double click Scriptable Auto Scripter -> Brosw -> Navigate to and select the corresponding .asl file
 
