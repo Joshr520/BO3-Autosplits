@@ -6,8 +6,12 @@ This only works for solo. The round variable is different if you're not the host
 
 ## HOW TO USE
 Download the corresponding timer for what you want to do
-  
-Right-Click livesplit -> Open Splits -> From File... -> Navigate to and select the corresponding .lss file
+
+To remove pause times:
+</br>Right-Click Livesplit -> Compare Against -> Game Time
+
+To load the splits/layout:
+</br>Right-Click Livesplit -> Open Splits -> From File... -> Navigate to and select the corresponding .lss file
 
 Right-Clck Livesplit -> Open Layout -> From File... -> Navigate to and select the corresponding .lsl file
 
