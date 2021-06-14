@@ -4,6 +4,8 @@ A collection of autosplitters for round based speedrunning, as well as a basic t
 # IMPORTANT
 This only works for solo. The round variable is different if you're not the host and the variable doesn't always update in time so the timer will be late. For this reason, I'm not including it at all for co-op because it's not accurate.
 
+The basic autosplitter won't do any splits for you. It's there to start the timer and pause, that's it.
+
 ## HOW TO USE
 Download the corresponding timer for what you want to do
 
